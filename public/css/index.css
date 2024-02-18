@@ -1,0 +1,34 @@
+body {
+    background-image: url('/images/bg.jpg');
+    background-size: cover; /* This property ensures the background image covers the entire container */
+    background-position: center; /* This property centers the background image within the container */
+    background-repeat: repeat;
+    height:100%;
+    font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.top-nav{
+    margin-top: 2px;
+    background-color: #cfc6e33d;
+    border-radius: 2em;
+    width: 600px;
+    height:45px;
+    margin: auto;
+}
+
+ul {
+    padding-top: 1.3%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around; /* if we want to space out exactly in between each item */
+    font-size: 20px;
+}
+
+li {
+    text-decoration: none; /* to remove underlining of links */
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue
+}
