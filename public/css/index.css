@@ -1,23 +1,28 @@
 body {
+    background: repeating-radial-gradient(circle, #fff, #fff 5px, #000 6px);
+    background-size: 50px 100px;
     background-image: url('/images/bg.jpg');
     background-size: cover; /* This property ensures the background image covers the entire container */
     background-position: center; /* This property centers the background image within the container */
     background-repeat: repeat;
     height:100%;
     font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color:aliceblue
 }
 
 .top-nav{
-    margin-top: 2px;
-    background-color: #cfc6e33d;
+    background-color: #8e86a03d;
     border-radius: 2em;
     width: 600px;
-    height:45px;
+    height:55px;
     margin: auto;
+    box-shadow:  12px -12px 57px #8f91a5,
+             -12px 12px 57px #c1c4df;
+    justify-content: center;
 }
 
 ul {
-    padding-top: 1.3%;
+    padding-top: 1.6%;
     display: flex;
     list-style: none;
     justify-content: space-around; /* if we want to space out exactly in between each item */
@@ -30,5 +35,89 @@ li {
 
 a {
     text-decoration: none;
-    color:aliceblue
+    color:aliceblue;
+}
+
+
+.hero { /* starts with "." to mark it as a class */
+    height: 45vh; /* vh means view port height to mark that we need height of the section = to the full screen */
+}
+
+.heading-div{
+    width: 700px;
+    margin: auto;
+    margin-top: 200px;
+}   
+
+h1{
+    font-size:65px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: -20px;
+}
+
+h2{
+    font-size:37px;
+    display: flex;
+    justify-content: center;
+    font-family:sans-serif;
+    font-weight: normal;
+    color:rgb(216, 227, 245);
+}
+
+.about-outerbox-div{
+    width: 1100px;
+    margin: auto;
+    border-radius: 1em;
+    border: 2px solid #f2f2f384;
+    padding: 15px;
+}
+
+
+.about-h2{
+    font-size: 32px;
+    margin: auto;
+}
+
+.about-p{
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.socials-div{
+    display: flex;
+    width:500px;
+    margin: auto;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.logos {
+    height: 60px;
+}
+
+.vertical-div-right {
+    border-left: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    height: 200px;
+    width:35px;
+    margin: auto;
+}
+
+.vertical-div-left{
+    border-right: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    height: 200px;
+    width:35px;
+    margin:auto;
+}
+
+
+@media only screen and (max-width:2000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

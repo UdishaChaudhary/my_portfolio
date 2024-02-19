@@ -2,11 +2,27 @@
     <link rel="stylesheet" href="/css/index.css"/>
     <nav>
         <ul> <!-- to add an unordered list-->
-            <li><a href="#about-me">About me</a></li> <!-- to add list item-->
+            <li><a href="#about-me">About</a></li> <!-- to add list item-->
             <li><a href="#contacts">Skills</a></li>
             <li><a href="#projects">Work</a></li>
             <li><a href="#contacts">Projects</a></li>
             <li><a href="#contacts">Contact</a></li>
         </ul>
     </nav>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        window.onscroll = function(){
+            if(window.pageYOffset >= sticky){
+                navbar.classList.add('sticky');
+            }
+            else{
+                navbar.classList.remove('sticky');
+            }
+        }
+    </script>
 </div>
