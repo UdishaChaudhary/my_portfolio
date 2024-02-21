@@ -2,6 +2,7 @@ body {
     background: repeating-radial-gradient(circle, #fff, #fff 5px, #000 6px);
     background-size: 50px 100px;
     background-image: url('/images/bg.jpg');
+    /*background-image: linear-gradient(144deg,#174c67, #3e2481 50%,#38d3de);*/
     background-size: cover; /* This property ensures the background image covers the entire container */
     background-position: center; /* This property centers the background image within the container */
     background-repeat: repeat;
@@ -13,20 +14,21 @@ body {
 .top-nav{
     background-color: #8e86a03d;
     border-radius: 2em;
-    width: 600px;
+    width: 550px;
     height:55px;
     margin: auto;
-    box-shadow:  12px -12px 57px #8f91a5,
-             -12px 12px 57px #c1c4df;
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
 }
 
 ul {
-    padding-top: 1.6%;
-    display: flex;
+    width: 470px;
     list-style: none;
-    justify-content: space-around; /* if we want to space out exactly in between each item */
-    font-size: 20px;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around /*we want to space out exactly in between each item */
+
 }
 
 li {
@@ -34,6 +36,7 @@ li {
 }
 
 a {
+    justify-content: space-between;
     text-decoration: none;
     color:aliceblue;
 }
@@ -66,14 +69,20 @@ h2{
     color:rgb(216, 227, 245);
 }
 
-.about-outerbox-div{
-    width: 1100px;
+.about-container-div{
+    width: 80%;
     margin: auto;
-    border-radius: 1em;
-    border: 2px solid #f2f2f384;
+    border-radius: 1em 1em 1em 1em;
+    border: 2px solid #2929e8fc;
     padding: 15px;
+    display: flex;
 }
 
+.about-inner-container{
+    width: 1000px;
+    margin-left:30%;
+    flex-grow: 2;
+}
 
 .about-h2{
     font-size: 32px;
@@ -84,7 +93,6 @@ h2{
     font-size: 18px;
     text-align: left;
 }
-
 
 .socials-div{
     display: flex;
@@ -97,23 +105,6 @@ h2{
 .logos {
     height: 60px;
 }
-
-.vertical-div-right {
-    border-left: 3px solid rgb(255, 255, 255);
-    border-bottom: 3px solid rgb(255, 255, 255);
-    height: 200px;
-    width:35px;
-    margin: auto;
-}
-
-.vertical-div-left{
-    border-right: 3px solid rgb(255, 255, 255);
-    border-bottom: 3px solid rgb(255, 255, 255);
-    height: 200px;
-    width:35px;
-    margin:auto;
-}
-
 
 @media only screen and (max-width:2000px) {
     .project-container {
