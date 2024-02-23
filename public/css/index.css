@@ -1,6 +1,8 @@
 *{
     color:rgb(225, 233, 246);
-    word-spacing: 3px;
+    word-spacing: 2px;
+    font-weight: 500;
+
 }
 
 
@@ -43,6 +45,7 @@ body {
 
 
 ul {
+    flex-grow: 2;
     margin: auto;
     list-style: none;
     font-size: 19px;
@@ -94,15 +97,15 @@ h1{
 /*--------------------------------------------About-------------------------------------------*/
 
 .sub-section{
-    height: 30vh;
+    height: 35vh;
 }
 
-.about-container-div{
+.outer-div{
     width: 70%;
     margin: auto;
-    border-radius: 1em 1em 1em 1em;
     padding: 15px;
     display: flex;
+    flex-direction: column;
 }
 
 .about-inner-container{
@@ -115,15 +118,38 @@ h2{
     justify-content: center;
     font-family:sans-serif;
     font-weight: normal;
-
+    text-align: center;
 }
 
 
 .about-p{
-
     text-align: left;
 }
 
+
+/*----------------------------------Skills----------------------------------*/
+
+
+.skills-wrapper{
+    flex-grow: 2;
+    text-align: center;
+}
+
+.skill-item{
+    text-decoration: none;
+    display: inline;
+    border-radius: 0.5em;
+    border: 2px solid ;
+    margin-bottom: px;
+}
+
+.skills-wrapper span {
+    padding: 6px;
+    border-radius: 1em;
+    border: 1px solid #333333;
+    background-color: #5037b342;
+    box-shadow: 0 2px 3px #0000003d;
+}
 
 /*--------------------------------experience-----------------------------*/
 
@@ -132,18 +158,11 @@ h3{
     font-weight: 50;
 }
 
-.exp-container-div{
-    width: 70%;
-    margin: auto;
-    border-radius: 1em 1em 1em 1em;
-    padding: 15px;
-    display: flex;
-    border: 2px dotted #3ab2ae96;
-}
-
 .exp-inner-container{
+    width: 70%;
     justify-content: center;
     margin-right: 20%;
+    padding: 10px;
 }
 
 
