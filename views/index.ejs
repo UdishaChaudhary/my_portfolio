@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="css/index.css"/>
         <title>Udisha Chaudhary</title>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <%-include('layouts/nav.ejs') -%>
@@ -25,7 +26,7 @@
 
 
 
-        <section class="about">
+        <section class="sub-section" id="about-me">
             <div class="about-container-div">
                 <div class="about-inner-container">
                     <h2>
@@ -43,7 +44,7 @@
         </section>
 
 
-        <section class="hero">
+        <section class="sub-section">
             <div class="exp-container-div">
                 <div class="exp-inner-container">
                     <h3>
@@ -74,11 +75,9 @@
                             Delivered multiple in-depth analyses using Jupyter notebooks to meet stakeholders’ demands.
                         </p>
                 </div>
-                   
-                </div>
             </div>     
         </section>
-
+        <%-include('layouts/footer.ejs') -%>
     </body>
 
 </html>
