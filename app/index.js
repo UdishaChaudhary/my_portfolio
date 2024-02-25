@@ -14,6 +14,7 @@ app.get('/',(req,res)=>{
     res.render('index.ejs')
 })
 
-
-module.exports = app;
+app.listen(3050,()=>{
+    console.log("App is listening on port 3050")
+})
 
