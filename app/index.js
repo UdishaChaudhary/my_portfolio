@@ -10,13 +10,10 @@ app.use(express.urlencoded())
 
 app.set('view engine', 'ejs')
 
-app.listen(3050,()=>{
-    console.log("App is listening on port 3050")
-})
-
 app.get('/',(req,res)=>{
     res.render('index.ejs')
 })
 
 
+module.exports = app;
 
