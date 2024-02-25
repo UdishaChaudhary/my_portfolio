@@ -2,9 +2,9 @@
   "name": "my_portfolio",
   "version": "1.0.0",
   "description": "My very first portfolio.",
-  "main": "index.js",
+  "main": "index.js", "type":"module",
   "scripts": {
-    "start": "nodemon app/index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
