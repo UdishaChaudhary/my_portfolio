@@ -16,7 +16,6 @@ body {
     background-repeat: no-repeat;
     font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     /* height: 100vh; Ensure body covers entire viewport height */
-
 }
 
 .nav{
@@ -38,7 +37,7 @@ body {
 }
 
 li {
-    padding-right: 40px;
+    /*padding-right: 40px; */
     text-decoration: none; /* to remove underlining of links */
     
 }
@@ -62,6 +61,7 @@ a {
 .sticky + .content {
     padding-top: 60px;
 }
+
 /*--------------------------------------------dashboard------------------------------------*/
 
 .dashboard { /* starts with "." to mark it as a class */
@@ -97,7 +97,7 @@ h1{
 /*--------------------------------------------About-------------------------------------------*/
 
 .sub-section{
-    height: 30vh;
+    margin-bottom:50px;
 }
 
 .outer-div{
@@ -128,7 +128,6 @@ h2{
 
 
 /*----------------------------------Skills----------------------------------*/
-
 
 .skills-wrapper{
     text-align: center;
@@ -189,7 +188,7 @@ h3{
 }
 
 .inner-container{
-    height: 96%;
+    height: 98%;
     display: flex;
     align-items: center;
     background-color: rgb(27, 44, 75);
@@ -207,6 +206,7 @@ h3{
 
 .unis-name{
     font-size: 20px;
+    text-align: center;
 }
 
 .inner-container:click{
@@ -234,7 +234,7 @@ h3{
     display: flex;
     width: 200px;
     margin: auto;
-    margin-top: 50vh;
+    margin-top: 50px;
     margin-bottom: 5vh;
     justify-content: space-around;
     margin-bottom: 100px;
