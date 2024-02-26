@@ -23,39 +23,51 @@ body {
     display: flex;
     justify-content: center;
 }
-    background-color: #8e86a03d;
 
 
-.nav{
-    display: flex;
-    align-items: center;
-    height: 55px;
-    border-radius: 2em;
-    list-style: none;
-    font-size: 19px;
-    background-color: #8e86a03d;
-    justify-content: center;
-    backdrop-filter: blur(10px);
 
-}
 
-.nav-list {
-    display: flex;
-    align-items: center;
-    height: 55px;
-    border-radius: 2em;
-    list-style: none;
-    font-size: 19px;
-    justify-content: center;
-    backdrop-filter: blur(10px);
 
-}
 
-.sp{
-    margin: 5%;
+/*--------------------------------------------navbar------------------------------------*/
+.nav {
+    position: fixed;
+    top: 0;
     left: 0;
-    
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none;
+    user-select: none;
 }
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: all .2s ease;
+    position: relative;
+    background-color: #c1b6b624;
+    backdrop-filter: blur(10px);
+
+}
+
+
+.nav-links-item {
+    cursor: pointer;
+    transition: all .2s ease;
+    font-size: 18px;
+    z-index: 2;
+    padding: 15px 5px;
+    margin: 0 5px;
+    font-weight: 300;
+
+}
+
 
 a {
     text-decoration: none;
@@ -76,7 +88,14 @@ a {
     padding-top: 60px;
 }
 
+
+
+
+
+
 /*--------------------------------------------dashboard------------------------------------*/
+
+
 
 .dashboard { /* starts with "." to mark it as a class */
     width: 80%;
@@ -107,7 +126,12 @@ h1{
 }
 
 
+
+
+
 /*--------------------------------------------About-------------------------------------------*/
+
+
 
 .outer-div{
     padding: 15px;
@@ -132,13 +156,20 @@ about-p{
 }
 
 
+
+
+
 /*----------------------------------Skills----------------------------------*/
 
+
+
 .skills-wrapper{
-    margin-top: 12px;
+    margin-top: 15px;
     text-align: center;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .skills-wrapper span {
@@ -147,9 +178,9 @@ about-p{
     display: inline-block;
     margin: 4px;
     border-radius: 9px;
-    background: #162b71d0;
-    box-shadow: inset 7px 7px 14px #283c6a,
-            inset -7px -7px 14px #2e467c;
+    background: #02050ead;
+    box-shadow: inset 7px 7px 14px #02050d,
+            inset -7px -7px 14px #1a243d;
 }
 
 
@@ -157,7 +188,14 @@ about-p{
  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
 }
 
+
+
+
+
+
 /*--------------------------------experience-----------------------------*/
+
+
 
 .company-name{
     font-size: 20px;
@@ -179,7 +217,12 @@ h3{
 
 
 
+
+
+
 /*--------------------------------education------------------------------*/
+
+
 
 .colored-container{
     margin-top: 22px;
@@ -191,10 +234,10 @@ h3{
 }
 
 .inner-container{
-    height: 95%;
+    height: 98%;
     display: flex;
     align-items: center;
-    background-color: rgb(27, 44, 75);
+    background-color: rgb(19, 29, 48);
     /*transition: all 0.4s;*/
     border-radius: 0.5em;
     margin: 0.2%;
@@ -232,6 +275,9 @@ h3{
 
 
 
+
+
+
 /*--------------------------------footer------------------------------*/
 
 
@@ -246,7 +292,7 @@ h3{
 }
 
 .logos {
-    height: 50px;
+    height: 1px;
 }
 
 
