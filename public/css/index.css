@@ -109,7 +109,7 @@ h1{
 }
 
 h2{
-    font-size: 28px;
+    font-size: 24px;
     justify-content: center;
     font-family:sans-serif;
     font-weight:100;
@@ -151,8 +151,14 @@ about-p{
 
 /*--------------------------------experience-----------------------------*/
 
+.company-name{
+    font-size: 20px;
+    font-weight: 150;
+    text-align: center;
+} 
+
 h3{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 150;
     text-align: center;
 }
