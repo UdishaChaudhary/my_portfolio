@@ -2,7 +2,6 @@
     color:rgb(225, 233, 246);
     letter-spacing: 1px;
     font-weight: 300;
-
 }
 
 
@@ -18,11 +17,26 @@ body {
     /* height: 100vh; Ensure body covers entire viewport height */
 }
 
-.nav{
+
+.sub-section{
+    margin-bottom:50px;
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+}
+    background-color: #8e86a03d;
+
+
+.nav{
+    display: flex;
     align-items: center;
+    height: 55px;
+    border-radius: 2em;
+    list-style: none;
+    font-size: 19px;
+    background-color: #8e86a03d;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+
 }
 
 .nav-list {
@@ -30,20 +44,20 @@ body {
     align-items: center;
     height: 55px;
     border-radius: 2em;
-    background-color: #8e86a03d;
     list-style: none;
     font-size: 19px;
-    justify-content: space-around;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+
 }
 
-li {
-    /*padding-right: 40px; */
-    text-decoration: none; /* to remove underlining of links */
+.sp{
+    margin: 5%;
+    left: 0;
     
 }
 
 a {
-    justify-content: space-between;
     text-decoration: none;
 }
 
@@ -94,12 +108,6 @@ h1{
 
 
 /*--------------------------------------------About-------------------------------------------*/
-
-.sub-section{
-    margin-bottom:50px;
-    display: flex;
-    justify-content: center;
-}
 
 .outer-div{
     padding: 15px;
