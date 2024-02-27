@@ -21,8 +21,7 @@ body {
 .sub-section{
     margin-bottom:50px;
     display: flex;
-    justify-content: center;
-}
+    justify-content: center;}
 
 
 
@@ -98,6 +97,7 @@ a {
 
 
 .dashboard { /* starts with "." to mark it as a class */
+    margin-top: 50px;
     width: 80%;
     display: flex;
     align-items: center;
