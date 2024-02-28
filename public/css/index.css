@@ -199,15 +199,17 @@ about-p{
 
 
 .company-name{
+    margin-left:2%;
     font-size: 20px;
     font-weight: 150;
-    text-align: center;
+    text-align: left;
 } 
 
 h3{
+    margin-left:2%;
     font-size: 20px;
     font-weight: 150;
-    text-align: center;
+    text-align: left;
 }
 
 .exp-inner-container{
