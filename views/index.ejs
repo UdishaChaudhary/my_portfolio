@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/index.css"/>
-        <title>Udisha Chaudhary</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <%-include('layouts/nav.ejs') -%>
+
+<head>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/animation/stars.css" />
+    
+    <title>Udisha Chaudhary</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <%-include('layouts/nav.ejs') -%>
+
+    <div id = "stars">
+
+    </div>
 
         <section class="sub-section">
             <div class="dashboard">
@@ -24,43 +32,45 @@
 
         <section class="sub-section" id="about-me">
             <div class="outer-div">
-                    <h2>
-                        About me
-                    </h2>
-                        <p class="about-p">
-                            I have always been into Computer Science since High School and from that my 
-                            passion for coding has only grown bigger. Soon after my graduation from Ireland I relocated to 
-                            Manchester to start off my career into software engineering. My ambition? To soar as a Full Stack Engineer. 
-                            Recently, my intrigue has shifted towards front-end development and MERN stack projects, 
-                            adding new dimensions to my ever-evolving skill set. During my free time, I immerse myself in Leetcode, 
-                            tackling those tricky coding problems.
-                        </p>
+                <h2>
+                    About me
+                </h2>
+                <p class="about-p">
+                    I have always been into Computer Science since High School and from that my
+                    passion for coding has only grown bigger. Soon after my graduation from Ireland I relocated to
+                    Manchester to start off my career into software engineering. My ambition? To soar as a Full Stack
+                    Engineer.
+                    Recently, my intrigue has shifted towards front-end development and MERN stack projects,
+                    adding new dimensions to my ever-evolving skill set. During my free time, I immerse myself in
+                    Leetcode,
+                    tackling those tricky coding problems.
+                </p>
             </div>
         </section>
 
 
-
+        
 
         <section class="sub-section education">
             <div class="outer-div">
                 <div class="education-outer-div">
                     <div class="colored-container">
                         <div class="inner-container">
-                            <p class = "unis-name">
+                            <marquee class="unis-name">
                                 Trinity College Dublin<br><br>
                                 MSc Computer Science - Data Science
-                            </p>
+                            </marquee>
                         </div>
                     </div>
                     <div class="colored-container">
                         <div class="inner-container">
-                            <p class="unis-name">
+                            <marquee class="unis-name">
                                 University of Delhi <br><br>
                                 BSc(H) Computer Science
-                            </p>
+                            </marquee>
                         </div>
                     </div>
-                </div>   
+                </div>
             </div>
         </section>
 
@@ -69,27 +79,27 @@
 
         <section class="sub-section" id="skills">
             <div class="outer-div">
-                    <h2>
-                        Skill Set
-                    </h2>
-                    <div class="skills-wrapper">
-                        <span>Python</span>
-                        <span>SQL</span>
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Javascript</span>
-                        <span>NodeJS</span>
-                        <span>Express</span>
-                        <span>Flask</span>
-                        <span>Google BigQuery</span>
-                        <span>Basic Statistics</span>
-                        <span>Github</span>
-                        <span>Jenkins</span>
-                        <span>Kubernetes</span>
-                        <span>A/B tests</span>
-                        <span>Report Writing</span>
-                    </div>
-            </div>     
+                <h2>
+                    Skill Set
+                </h2>
+                <div class="skills-wrapper">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Javascript</span>
+                    <span>NodeJS</span>
+                    <span>Express</span>
+                    <span>Flask</span>
+                    <span>Google BigQuery</span>
+                    <span>Basic Statistics</span>
+                    <span>Github</span>
+                    <span>Jenkins</span>
+                    <span>Kubernetes</span>
+                    <span>A/B tests</span>
+                    <span>Report Writing</span>
+                </div>
+            </div>
         </section>
 
 
@@ -107,40 +117,45 @@
                 <h3>
                     Manchester, England (Sep 2022 ~ Oct 2023)
                 </h3>
-                    <ul class="about-p">
-                        <li>
-                            Collaborated seamlessly with cross-functional teams, including Product Managers, UI/UX designers, Machine
-                            Learning and Elastic Search team, and other stakeholders such as site executives to run A/B tests on live
-                            websites like Myprotein and Cult Beauty.<br><br>
-                        </li>
-                        <li>
-                            Contributed to significant revenue growth by executing more than 30 A/B tests, which led to an additional revenue 
-                            of approximately 10 million GBP. <br><br>
-                        </li>
-                        <li>
-                            Developed new features and functionalities for a Python-based software application designed to analyse data
-                            from A/B tests.<br><br>
-                        </li>
-                        <li>
-                            Enhanced applications robustness by implementing unit and integration tests, addressing bugs and resolving over 40 backlog
+                <ul class="about-p">
+                    <li>
+                        Collaborated seamlessly with cross-functional teams, including Product Managers, UI/UX
+                        designers, Machine
+                        Learning and Elastic Search team, and other stakeholders such as site executives to run A/B
+                        tests on live
+                        websites like Myprotein and Cult Beauty.<br><br>
+                    </li>
+                    <li>
+                        Contributed to significant revenue growth by executing more than 30 A/B tests, which led to an
+                        additional revenue
+                        of approximately 10 million GBP. <br><br>
+                    </li>
+                    <li>
+                        Developed new features and functionalities for a Python-based software application designed to
+                        analyse data
+                        from A/B tests.<br><br>
+                    </li>
+                    <li>
+                        Enhanced applications robustness by implementing unit and integration tests, addressing bugs and
+                        resolving over 40 backlog
                         issues. <br><br>
-                        </li>
-                        <li>
-                            Optimised and refactored SQL queries, resulting in 17% improvement in time efficiency.<br><br>
-                        </li>
-                        <li>
-                            Managed the orchestration of containers on Kubernetes using k9s and Kibana logs.<br><br>  
-                        <li>
-                            Ensured the integration and testing of all software developments using platforms like Jenkins and GitHub.<br><br>                
-                        </li>
+                    </li>
+                    <li>
+                        Optimised and refactored SQL queries, resulting in 17% improvement in time efficiency.<br><br>
+                    </li>
+                    <li>
+                        Managed the orchestration of containers on Kubernetes using k9s and Kibana logs.<br><br>
+                    <li>
+                        Ensured the integration and testing of all software developments using platforms like Jenkins
+                        and GitHub.<br><br>
+                    </li>
             </div>
         </section>
 
 
-        
-                    
         <%-include('layouts/footer.ejs') -%>
 
-        
-    </body>
+
+</body>
+
 </html>
