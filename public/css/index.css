@@ -231,6 +231,7 @@ h3{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+
 }
 
 
@@ -245,35 +246,39 @@ h3{
 }
 
 .inner-container{
+    width: 50%;
+    height: 300px;
     display: flex;
     align-items: center;
-    background-color: rgb(19, 29, 48);
     /*transition: all 0.4s;*/
     border-radius: 0.6em;
     margin: 0.8%;
     justify-content: center;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+
 
 }
 
-.container:hover{
-    box-shadow: 0px 0px 30px 1px rgba(212, 0, 255, 0.3);
+
+.unis-logo{
+    width: 80px;
+    height: 80px;
+}
+.inner-container:hover{
+    transform: scale(1.1);
 }
 
 
 .unis-name{
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
 }
 
 
 
-.inner-container:hover{
-    /*transform: scale(0.98);
-    border-radius: 1em;*/
-    background-color: rgba(27, 64, 75, 0.477);
-}
 
 
 
