@@ -1,7 +1,7 @@
 *{
     color:rgb(225, 233, 246);
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 150;
 }
 
 
@@ -198,17 +198,9 @@ about-p{
 
 
 
-.company-name{
-    margin-left:2%;
-    font-size: 20px;
-    font-weight: 150;
-    text-align: left;
-} 
-
 h3{
     margin-left:2%;
     font-size: 20px;
-    font-weight: 150;
     text-align: left;
 }
 
@@ -273,7 +265,7 @@ h3{
 
 
 .unis-name{
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
 }
 
