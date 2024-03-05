@@ -2,6 +2,7 @@
     color:rgb(225, 233, 246);
     letter-spacing: 1px;
     font-weight: 150;
+    line-height: 1.6em;
 }
 
 
@@ -112,16 +113,17 @@ h1{
     display: flex;
     justify-content: center;
     font-family: Arial, sans-serif;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
     color: white;
     text-align: center;
 }
 
 .tagline{
-    font-size:37px;
+    font-size:34px;
     display: flex;
     justify-content: center;
     font-family:sans-serif;
+    text-align: center;
     font-weight:200;
 }
 
@@ -149,11 +151,12 @@ h2{
     margin-bottom: -1px;
 }
 
-
-about-p{
-    text-align: left;
+.p-about-me{
+    text-align: center;
     font-weight: 120;
+
 }
+
 
 
 
@@ -211,11 +214,25 @@ h3{
 
 
 
+.about-job{
+    text-align: left;
+    font-weight: 120;
+
+}
+
+
 
 
 
 
 /*--------------------------------education------------------------------*/
+
+
+
+.sub-section education{
+    display: flex;
+    justify-content: center;}
+
 
 
 .education-outer-div{
