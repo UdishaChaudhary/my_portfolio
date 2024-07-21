@@ -148,6 +148,13 @@ h1{
 	animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
 }
 
+.work-design{
+    border-style: dotted;
+    border-radius: 20px;
+    border-color: cyan;
+    padding: 15px;
+    margin: 30px;
+}
 
 @-webkit-keyframes animate {
 	0% {opacity: 0;-webkit-transform: translateY(30vh);}
@@ -156,8 +163,8 @@ h1{
 
 
 @keyframes animate {
-	0% {opacity: 0;transform: translateY(30vh);} 
-	100% {opacity: 1;transform: translateY(0%);}	
+	0% {opacity: 0;transform: translateY(30vh);}
+	100% {opacity: 1;transform: translateY(0%);}
 }
 
 
@@ -228,9 +235,9 @@ h2{
 
 
 h3{
-    margin-left:2%;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
+    font-weight: 300;
 }
 
 .exp-inner-container{
